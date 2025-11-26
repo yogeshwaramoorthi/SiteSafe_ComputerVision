@@ -33,3 +33,10 @@ pip install -r requirements.txt
 
 # 3. Run the inference script
 python main.py
+## 🧠 Phase 2: GenAI Safety Auditor
+I integrated **Google Gemini 2.0 Flash** to act as an automated Safety Officer.
+* **Input:** The system captures a scene.
+* **Reasoning:** The LLM analyses the context (e.g., distinguishing between a safe wire and an exposed wire near water).
+* **Output:** Generates a graded safety report (High/Medium/Low Severity).
+
+![GenAI Audit Demo](GenAI_Audit_Demo.jpg)
